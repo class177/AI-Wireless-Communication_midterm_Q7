@@ -1,0 +1,13 @@
+model,train_type,train_dataset,test_dataset,encoded_dim,epochs,train_samples,test_samples,nmse_db,rho,train_seconds,infer_seconds_per_sample
+CsiNet,single_dataset,D1_indoor_uniform,D1_indoor_uniform,512,100,1200,400,-8.576,0.139362,121.116,0.00055500
+CsiNet,single_dataset,D1_indoor_uniform,D2_indoor_center,512,100,1200,400,-7.5798,0.138616,121.116,0.00030251
+CsiNet,single_dataset,D1_indoor_uniform,D3_indoor_edge,512,100,1200,400,-8.6165,0.14906,121.116,0.00029751
+CsiNet,single_dataset,D1_indoor_uniform,D4_indoor_ring,512,100,1200,400,-8.7081,0.143861,121.116,0.00030000
+CsiNet,single_dataset,D1_indoor_uniform,D5_outdoor_uniform,512,100,1200,400,-3.4702,0.136041,121.116,0.00030128
+CsiNet,single_dataset,D1_indoor_uniform,D6_outdoor_clustered,512,100,1200,400,-3.7739,0.144101,121.116,0.00030628
+CsiNet,mixed_datasets,mixed_all,D1_indoor_uniform,512,100,7200,400,-12.1743,0.143565,699.681,0.00068727
+CsiNet,mixed_datasets,mixed_all,D2_indoor_center,512,100,7200,400,-11.1076,0.141723,699.681,0.00033001
+CsiNet,mixed_datasets,mixed_all,D3_indoor_edge,512,100,7200,400,-12.4335,0.150543,699.681,0.00033420
+CsiNet,mixed_datasets,mixed_all,D4_indoor_ring,512,100,7200,400,-12.1716,0.145666,699.681,0.00034064
+CsiNet,mixed_datasets,mixed_all,D5_outdoor_uniform,512,100,7200,400,-12.9349,0.148281,699.681,0.00032877
+CsiNet,mixed_datasets,mixed_all,D6_outdoor_clustered,512,100,7200,400,-13.1864,0.155575,699.681,0.00035000
